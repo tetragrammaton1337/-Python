@@ -5,8 +5,8 @@ import sys
 app = QtWidgets.QApplication(sys.argv) #инициализируем приложение
 window = QtWidgets.QWidget() # создаём окно
 window.setWindowTitle("Вход") # заголовок окна
-window.resize(400, 300) #размер
+window.resize(900, 500) #размер
 
-btn = QtWidgets.QPushButton("Close")
 
-window.show()
+window.show() # отображение океа
+sys.exit(app.exec_()) # чтобы окно не закрывалось
